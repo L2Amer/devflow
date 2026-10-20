@@ -3,6 +3,7 @@ package com.devflow;
 import java.util.Scanner;
 
 public class App {
+
     private static final String HELP = """
             Comandos disponibles:
               add <título>   Añade una tarea
@@ -25,7 +26,7 @@ public class App {
         while (true) {
             System.out.print("> ");
 
-            if (! in.hasNextLine()) {
+            if (!in.hasNextLine()) {
                 return;
             }
 
